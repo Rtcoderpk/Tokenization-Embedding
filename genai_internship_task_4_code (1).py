@@ -9,7 +9,6 @@ Original file is located at
 Libraries
 """
 
-""""!pip install transformers tokenizers torch""""
 
 """Tokenization (BERT Tokenizer)"""
 
