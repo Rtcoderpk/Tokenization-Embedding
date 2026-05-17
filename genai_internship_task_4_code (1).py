@@ -75,8 +75,6 @@ print("Embedding shape:", embeddings.shape)
 To deploy this as a Streamlit application, you'll need to create a Python file (e.g., `app.py`) with the following code. Streamlit allows you to build interactive web apps with pure Python.
 """
 
-pip install streamlit
-
 import streamlit as st
 from transformers import BertTokenizer, GPT2Tokenizer, T5Tokenizer, BertModel
 import torch
